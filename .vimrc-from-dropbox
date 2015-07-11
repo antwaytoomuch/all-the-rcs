@@ -1,0 +1,50 @@
+" Show line numbers
+set number
+
+"Remember 1000 lins of history
+set history=1000
+
+" Auto read file change
+set autoread
+
+" When moving vertically using j/k, jump 7 line at a time
+set so=7
+
+" Show current position
+set ruler
+
+" Case insensitive search
+set ignorecase	
+
+" Smart case searching
+set smartcase
+
+" Highlight search results
+set hlsearch
+
+" Inc search
+set incsearch
+
+" For regex turn magic on
+set magic
+
+" Show matching brackets
+set showmatch
+
+" Syntax highlighting
+syntax enable
+
+" Use Unix as default file type
+set ffs=unix,dos,mac
+
+" Smart tabs
+set smarttab
+
+" Auto indent
+set ai
+
+" Smart indent
+set si
+
+" Dark background
+set background=dark

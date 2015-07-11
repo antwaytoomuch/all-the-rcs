@@ -1,0 +1,9 @@
+source /etc/bashrc
+
+alias ls='ls -G'
+alias ll='ls -la'
+alias lt='ls -ltr' 
+alias grep='grep --color=auto'
+alias mv='mv -iv'
+alias rm='rm -iv'
+alias cp='cp -iv'
