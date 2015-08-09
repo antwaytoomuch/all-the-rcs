@@ -82,11 +82,16 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+alias lt="ls -ltr"
+alias sorrow='ssh tongwang@sorrow'
 
 autoload -U promptinit
 promptinit
 
-PROMPT='%{$fg_bold[red]%}➜ %{$fg_bold[green]%}%p%{$fg[cyan]%}%d %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}% %{$reset_color%}> '
-export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
-export PATH=/Applications/MAMP/bin/php/php5.6.10/bin:$PATH
+PROMPT='%{$fg[cyan]%}[%M]%{$fg_bold[red]%}➜ %{$fg_bold[green]%}%p%{$fg[cyan]%}%d %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}% %{$reset_color%}> '
+export PATH="/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:$PATH"
+#export PATH=/Applications/MAMP/bin/php/php5.6.10/bin:$PATH
+
+PERL_MB_OPT="--install_base \"/Volumes/Home/tongwang/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/Volumes/Home/tongwang/perl5"; export PERL_MM_OPT;
+#export PERL5LIB="/Library/Perl/5.18/darwin-thread-multi-2level:/Library/Perl/5.18:/Library/Perl/5.18/darwin-thread-multi-2level:/Library/Perl/5.18:/Network/Library/Perl/5.18/darwin-thread-multi-2level:/Network/Library/Perl/5.18:/Library/Perl/Updates/5.18.2/darwin-thread-multi-2level:/Library/Perl/Updates/5.18.2:/System/Library/Perl/5.18/darwin-thread-multi-2level:/System/Library/Perl/5.18:/System/Library/Perl/Extras/5.18/darwin-thread-multi-2level:/System/Library/Perl/Extras/5.18"
